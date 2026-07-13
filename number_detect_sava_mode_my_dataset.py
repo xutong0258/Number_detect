@@ -4,7 +4,6 @@ import torch.nn.functional as F
 import torch.optim as optim
 from torchvision import datasets, transforms
 import matplotlib.pyplot as plt
-from base.util import *
 from SimpleCNN import SimpleCNN
 from CSVDataset import *
 from image_dataset import *
