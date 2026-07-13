@@ -6,16 +6,15 @@ import torch.nn.functional as F
 import torch.optim as optim
 from torchvision import datasets, transforms
 import matplotlib.pyplot as plt
-import cv2
+# import cv2
 import numpy as np
-from base.util import *
+# from base.util import *
 
 from SimpleCNN import SimpleCNN
 
 
 # 创建模型实例
 model = SimpleCNN()
-
 # 把参数塞进模型里面
 model.load_state_dict(torch.load('./mymodel.pt'))
 

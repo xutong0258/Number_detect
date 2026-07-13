@@ -1,0 +1,42 @@
+# Python-generated files
+*.log
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+logs/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# SQLite databases
+*.db
+
+# uv lock file
+uv.lock
